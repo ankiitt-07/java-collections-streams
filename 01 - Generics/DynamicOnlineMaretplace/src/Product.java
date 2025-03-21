@@ -24,7 +24,7 @@ public class Product <T extends ICategory>{
     public void setCategory(T category) {
         this.category = category;
     }
-    
+
     public static <T extends Product<?>> void applyDiscount(T product, double percentage) {
         System.out.println("Discount applied for " + product.getName() + " with percentage " + percentage);
     }
