@@ -9,7 +9,7 @@ public class Main {
 
     public static void main(String[] args) {
         VegetarianMeal vegMeal = new VegetarianMeal("Paneer", "200");
-        NonVegetarianMeal nonVegMeal = new NonVegetarianMeal("Chicken", "120");
+        NonVegetarianMeal nonVegMeal = new NonVegetarianMeal("Chicken Tikka", "120");
 
         Meal<?> meal = generateMeal(nonVegMeal);
         meal.display();
