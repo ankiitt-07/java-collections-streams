@@ -9,6 +9,7 @@ public class MergeMaps {
         Map<String, Integer> map2 = new HashMap<>();
         map2.put("B", 3);
         map2.put("C", 4);
+        
 
         for (Map.Entry<String, Integer> entry : map2.entrySet()) {
             map1.merge(entry.getKey(), entry.getValue(), Integer::sum);
