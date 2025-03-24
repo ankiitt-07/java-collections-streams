@@ -1,5 +1,3 @@
-package collections.queue_interface;
-
 import java.util.*;
 
 public class BinaryNumbers{
