@@ -16,7 +16,6 @@ public class FileHandler {
         }
         return null;
     }
-
     public static void writeFile(String filePath, List<Integer> lines) {
         try (FileOutputStream fos = new FileOutputStream(filePath)) {
             for (int line : lines) {
