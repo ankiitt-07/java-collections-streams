@@ -1,3 +1,0 @@
-hello there
-how are you?
-do you think there is an error in this code.
